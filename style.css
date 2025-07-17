@@ -1,0 +1,150 @@
+/* Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0f0f0f;
+  color: #fff;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #0f0f0f;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ff4081;
+  letter-spacing: 1px;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding-top: 120px;
+}
+.hero-content {
+  text-align: center;
+}
+
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+.hero h2 {
+  font-size: 1.8em;
+  color: #00bcd4;
+  height: 1.2em; /* reserve for typing */
+  margin-bottom: 20px;
+}
+.highlight {
+  color: #ff4081;
+}
+.hero p {
+  font-size: 1.1em;
+}
+
+/* Headings */
+h2 {
+  color: #00bcd4;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Cards */
+.card,
+.project-card {
+  background: #1a1a1a;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.card h3,
+.project-card h3 {
+  margin: 0 0 10px;
+  color: #ff4081;
+}
+
+/* Lists */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+ul li {
+  background: #1a1a1a;
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+/* Contact Links */
+a {
+  color: #00bcd4;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  margin-top: auto;
+  font-size: 0.9em;
+}
+.aws-tasks {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+.aws-tasks h2 {
+  color: #00bcd4;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.task-card {
+  background: #1a1a1a;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.task-card h3 {
+  margin-top: 0;
+  color: #ff4081;
+}
