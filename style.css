@@ -148,3 +148,17 @@ footer {
   margin-top: 0;
   color: #ff4081;
 }
+
+@media (max-width: 768px) {
+  .hero-content {
+    padding: 20px;
+  }
+  .profile-img {
+    width: 120px;
+    height: 120px;
+  }
+  section {
+    padding: 40px 15px;
+  }
+}
+
