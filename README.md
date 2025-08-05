@@ -9,5 +9,5 @@ Welcome to my personal portfolio! Built with HTML, CSS, and GitHub Pages.
 
 ## Highlights
 - AWS Projects
-- Hackathon Experience
-- Skills: Linux, Git, FastAPI, React
+- Hackathon Enthusiast
+- Skills: Linux, Git, AWS
